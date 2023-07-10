@@ -57,7 +57,7 @@ char	*organized_path(char **envp, char *cmd)
 	char	**mypaths;
 
 	i = 0;
-	while (!ft_strnstr(envp[i], "PATH", 4))
+	while (!ft_strnstr(envp[i], "PATH=", 5))
 		i++;
 	path = ft_substr(envp[i], 5, ft_strlen(envp[i]));
 	mypaths = ft_split(path, ':');
