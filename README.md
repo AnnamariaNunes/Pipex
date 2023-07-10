@@ -1,4 +1,4 @@
-This project creates a unidirectional communication link between two file descriptors - without using the pipe - simply by entering the input, the two commands and the output.
+This project recreates a unidirectional communication link between two file descriptors - without using the pipe - simply by entering the input, the two commands and the output.
 
 You can use a command like : 
 
